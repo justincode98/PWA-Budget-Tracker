@@ -1,6 +1,10 @@
 //https://www.geeksforgeeks.org/service-workers-in-javascript/
 /*
-
+edited files:
+service-worker.js
+index.html
+manifest.json
+idb.js
 */
 const APP_PREFIX = 'Budget Tracker-';     
 const VERSION = 'version_01';

@@ -41,7 +41,7 @@ request.onsuccess = function(event) {
 
   //opens database to read data 
 function uploadBudget() {
-    const transaction = db.transaction(["budget_table"], 'readWrite');
+    const transaction = db.transaction(["budget_table"], 'readwrite');
     const budgetObjectStore = transaction.objectStore('budget_table');
     const getAll = budgetObjectStore.getAll(); //get all is asynchronous, requires event handler
 
